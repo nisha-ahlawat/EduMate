@@ -1,0 +1,2 @@
+export const baseApiURL = () =>
+  process.env.REACT_APP_APILINK || "http://localhost:5000/api";
